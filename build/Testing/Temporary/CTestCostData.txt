@@ -1,4 +1,5 @@
-FactorialTest.HandlesZero 2 0.0498939
-FactorialTest.HandlesPositive 2 0.0398818
-FactorialTest.HandlesNegative 2 0.0430938
+FactorialTest.HandlesZero 11 0.0062613
+FactorialTest.HandlesPositive 10 0.00718056
+FactorialTest.HandlesNegative 13 0.00613511
+FactorialTestXD.HandlesPositive 1 0.0522966
 ---

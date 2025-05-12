@@ -1,10 +1,10 @@
-Start testing: May 12 11:55 -05
+Start testing: May 12 12:42 -05
 ----------------------------------------------------------
 1/3 Testing: FactorialTest.HandlesZero
 1/3 Test: FactorialTest.HandlesZero
 Command: "/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test/factorial_test" "--gtest_filter=FactorialTest.HandlesZero" "--gtest_also_run_disabled_tests"
 Directory: /mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test
-"FactorialTest.HandlesZero" start time: May 12 11:55 -05
+"FactorialTest.HandlesZero" start time: May 12 12:42 -05
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = FactorialTest.HandlesZero
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"FactorialTest.HandlesZero" end time: May 12 11:55 -05
+"FactorialTest.HandlesZero" end time: May 12 12:42 -05
 "FactorialTest.HandlesZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/3 Test: FactorialTest.HandlesPositive
 Command: "/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test/factorial_test" "--gtest_filter=FactorialTest.HandlesPositive" "--gtest_also_run_disabled_tests"
 Directory: /mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test
-"FactorialTest.HandlesPositive" start time: May 12 11:55 -05
+"FactorialTest.HandlesPositive" start time: May 12 12:42 -05
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -47,10 +47,10 @@ Note: Google Test filter = FactorialTest.HandlesPositive
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"FactorialTest.HandlesPositive" end time: May 12 11:55 -05
+"FactorialTest.HandlesPositive" end time: May 12 12:42 -05
 "FactorialTest.HandlesPositive" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/3 Test: FactorialTest.HandlesNegative
 Command: "/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test/factorial_test" "--gtest_filter=FactorialTest.HandlesNegative" "--gtest_also_run_disabled_tests"
 Directory: /mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test
-"FactorialTest.HandlesNegative" start time: May 12 11:55 -05
+"FactorialTest.HandlesNegative" start time: May 12 12:42 -05
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -74,11 +74,11 @@ Note: Google Test filter = FactorialTest.HandlesNegative
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"FactorialTest.HandlesNegative" end time: May 12 11:55 -05
+"FactorialTest.HandlesNegative" end time: May 12 12:42 -05
 "FactorialTest.HandlesNegative" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 12 11:55 -05
+End testing: May 12 12:42 -05
