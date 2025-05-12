@@ -1,12 +1,10 @@
-# Biblioteca con la lógica de factorial
-add_library(factorial_lib
-  factorial.cpp
-)
+# define una librería de cabeceras solamente
+add_library(factorial_lib INTERFACE)
 target_include_directories(factorial_lib
-  PUBLIC ${PROJECT_SOURCE_DIR}/include
+  INTERFACE ${PROJECT_SOURCE_DIR}/include
 )
 
-# Ejecutable principal
+# ejecutable principal
 add_executable(factorial_main
   main.cpp
 )

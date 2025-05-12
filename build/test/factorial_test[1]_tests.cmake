@@ -1,0 +1,7 @@
+add_test([=[FactorialTest.HandlesZero]=]  [==[/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test/factorial_test]==] [==[--gtest_filter=FactorialTest.HandlesZero]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FactorialTest.HandlesZero]=]  PROPERTIES WORKING_DIRECTORY [==[/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FactorialTest.HandlesPositive]=]  [==[/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test/factorial_test]==] [==[--gtest_filter=FactorialTest.HandlesPositive]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FactorialTest.HandlesPositive]=]  PROPERTIES WORKING_DIRECTORY [==[/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FactorialTest.HandlesNegative]=]  [==[/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test/factorial_test]==] [==[--gtest_filter=FactorialTest.HandlesNegative]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FactorialTest.HandlesNegative]=]  PROPERTIES WORKING_DIRECTORY [==[/mnt/e/OCTAVO SEMESTRE/CONSTRUCCIÓN/PARCIAL 1/PRUEBAS_UNITARIAS_C-/build/test]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  factorial_test_TESTS FactorialTest.HandlesZero FactorialTest.HandlesPositive FactorialTest.HandlesNegative)
