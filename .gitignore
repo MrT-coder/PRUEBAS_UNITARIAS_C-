@@ -1,0 +1,28 @@
+# Ignorar carpetas de dependencias externas y de compilación
+/build/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos temporales de editores
+*~
+*.swp
+*.swo
+
+# (Opcional) Ignorar artefactos de compilación adicionales
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+
+# (Opcional) Ignorar resultados de pruebas
+test-results/
+coverage/
+
+# (Opcional) Ignorar archivos de configuración local
+.env
