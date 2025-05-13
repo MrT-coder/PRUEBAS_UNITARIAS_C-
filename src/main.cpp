@@ -2,12 +2,12 @@
 #include "factorial.h"
 
 int main() {
-    int n;
+    int numero;
     std::cout << "Introduce un número: ";
-    if (!(std::cin >> n)) {
+    if (!(std::cin >> numero)) {
         std::cerr << "Entrada inválida\n";
         return 1;
     }
-    std::cout << "Factorial de " << n << " es " << factorial(n) << "\n";
+    std::cout << "Factorial de " << numero << " es " << factorial(numero) << "\n";
     return 0;
 }
